@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    padding: 1rem;
+    overflow: hidden;
     margin-top: 2px;
     margin-bottom: 2px;
     background-color: #290058;
