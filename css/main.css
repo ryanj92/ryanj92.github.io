@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #FBF7FF;
+    margin: 0;
+}
+
+header {
+    font-size: 200%;
+    padding: 2rem;
+    text-align: center;
+    background-color: #290058;
+    color: #FBF7FF;
+}
+
+footer {
+    background-color: #290058;
+    padding: 1rem;
+}
+
+footer a {
+    color: #FBF7FF;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#side-box{
+    flex: 25%;
+    padding: 1rem;
+    background-color: #D2C2E1;
+}
+
+#self-pic{
+    max-width:100%;
+}
+
+#main-content {
+    flex: 75%;
+    padding: 1rem;
+}
+
+#main-content a{
+    color: #46305E;
+}
