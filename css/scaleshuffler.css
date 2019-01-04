@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    overflow: hidden;
+    padding: 1rem;
     margin-top: 2px;
     margin-bottom: 2px;
     background-color: #290058;
@@ -37,30 +37,6 @@ footer {
 
 footer a {
     color: #FBF7FF;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-}
-
-#side-box{
-    flex: 25%;
-    padding: 1rem;
-    background-color: #D2C2E1;
-}
-
-#self-pic{
-    max-width:100%;
-}
-
-#main-content {
-    flex: 75%;
-    padding: 1rem;
-}
-
-#main-content a{
-    color: #46305E;
 }
 
 #ss-main-content{
