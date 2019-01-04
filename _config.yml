@@ -1,6 +1,11 @@
 title: Ryan Jones
 author: Ryan Jones
-description: >
-  Welcome to my site!
+email: ryanj92@live.co.uk 
+description: > # this means to ignore newlines until "baseurl:"
+  I am a 26 year old PhD student, studying Physics at The University of Nottingham.
+  
+# social links
+twitter_username: ryanj_92
+github_username:  ryanj92
 
 theme: jekyll-theme-minimal
