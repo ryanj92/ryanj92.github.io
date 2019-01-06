@@ -41,21 +41,26 @@ footer a {
 
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-flow: column-reverse; /* Set for mobile */
 }
 
 #side-box{
-    flex: 25%;
+    order: 1;
+    flex: 1 0 25%;
     padding: 1rem;
     background-color: #D2C2E1;
 }
 
 #self-pic{
-    max-width:100%;
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main-content {
-    flex: 75%;
+    order: 2;
+    flex: 1 0 75%;
     padding: 1rem;
 }
 
@@ -63,6 +68,14 @@ footer a {
     color: #46305E;
 }
 
-#ss-main-content{
-    padding: 2rem;
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .flex-container {
+        flex-flow: row;
+    }
+
+    #self-pic{
+        max-width: 75%;
+    }
+
 }
