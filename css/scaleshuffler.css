@@ -14,29 +14,24 @@ header {
 
 nav {
     overflow: hidden;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    border-top: 2px solid #FBF7FF;
     background-color: #290058;
 }
 
-nav a {
+nav a, footer a {
     float: left;
     padding: 1rem;
     color: #FBF7FF;
     display: block;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
     background-color: #D1A6FF;
 }
 
 footer {
+    overflow: hidden;
     background-color: #290058;
-    padding: 1rem;
-}
-
-footer a {
-    color: #FBF7FF;
 }
 
 #ss-main-content{
